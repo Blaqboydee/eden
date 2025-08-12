@@ -6,7 +6,7 @@ const products = [
     id: 1,
     name: 'Eden Trouvaille', 
     price: '₦12,000', 
-    originalPrice: '₦15,000',
+
     img: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=500&fit=crop',
     category: 'Blazers',
     isNew: true,
@@ -34,7 +34,7 @@ const products = [
     id: 4,
     name: 'Essential Blazer', 
     price: '₦18,000', 
-    originalPrice: '₦22,000',
+
     img: 'https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=400&h=500&fit=crop',
     category: 'Blazers',
     isNew: true,
@@ -79,11 +79,11 @@ function Products() {
           <p className="text-sm text-gray-500 tracking-widest uppercase font-medium mb-4">
             Curated Collection
           </p>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-black mb-6 tracking-wide">
+          <h2 className=" text-2xl md:text-5xl lg:text-6xl font-light text-black mb-6 tracking-wide">
             Our Latest
             <span className="block italic font-normal">Arrivals</span>
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sm w-[90%] text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Discover our carefully curated selection of premium fashion pieces that blend timeless elegance with contemporary style.
           </p>
         </div>

@@ -182,7 +182,7 @@ function Hero() {
           </div>
 
           {/* Mobile Layout */}
-          <div className="lg:hidden relative mt-0 pt-0 h-[60vh]">
+          <div className="lg:hidden relative mt-0 pt-0 h-[50vh] mb-6">
             
             {/* Mobile Background Image Carousel */}
             <div className="absolute inset-0 flex justify-center">
@@ -234,11 +234,11 @@ function Hero() {
             </div>
 
             {/* Mobile Content Overlay */}
-            <div className="relative pt-32 flex flex-col  min-h-screen">
-              <div className="bg-transparent backdrop-blur-[2px] rounded-2xl p-8 shadow-xl mx-auto max-w-sm text-left">
+            <div className="relative  flex flex-col  min-h-screen">
+              <div className="bg-black/25 rounded-2xl py-8 px-4 shadow-xl mx-auto max-w-sm text-left">
                 <div className="space-y-6">
                   <div className="space-y-3">
-                    <h1 className="text-4xl text-white sm:text-5xl font-light text-black leading-tight tracking-wide">
+                    <h1 className="text-4xl text-white sm:text-5xl font-light leading-tight tracking-wide">
                       Timeless
                       <span className="block italic font-normal">Elegance</span>
                     </h1>
